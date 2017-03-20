@@ -52,7 +52,8 @@ a:hover {
 }
 
 .heading {
-  background: #fff;
+  background: #77C9D4;
+  color: #fff;
   border-bottom: 1px solid #eee;
   height: 60px;
   line-height: 60px;
@@ -76,14 +77,16 @@ a:hover {
 
 .listings .item .title {
   display: block;
-  color: #00853e;
+  color: #015249;
   font-weight: 700;
 }
 
 .listings .item .title small { font-weight: 400; }
 
 .listings .item.active .title,
-.listings .item .title:hover { color: #8cc63f; }
+.listings .item .title:hover { color: #57BC90; }
+
+.listings .item .details { color: #A5A5AF; }
 
 .listings .item.active {
   background-color: #f8f8f8;
@@ -101,7 +104,7 @@ a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00853e;
+  background: #A5A5Af;
   border-radius: 0;
 }
 
@@ -131,7 +134,7 @@ a:hover {
 }
 
 .mapboxgl-popup-content h3 {
-  background: #91c949;
+  background: #57BC90;
   color: #fff;
   margin: 0;
   display: block;

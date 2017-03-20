@@ -346,6 +346,7 @@ function buildLocationList(data) {
 
     var details = listing.appendChild(document.createElement('div'));
     details.innerHTML = prop.city;
+    details.className = 'details'
     if (prop.phone) {
       details.innerHTML += ' &middot; ' + prop.phoneFormatted;
     }
